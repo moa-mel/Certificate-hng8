@@ -1,0 +1,107 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+  }
+.main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin:0% 50px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .content .period{
+        width:100%;
+     }
+  }
+  
+@media only screen and (min-width: 600px) {
+    
+    .content .period{
+        width:55%;
+     }
+  }
+.body{
+    background-image: url(images/certBg.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height:70vh; */
+    /* width:80vw; */
+    border-left: 20px solid #00AEFF;
+    padding: 4%;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between; 
+   flex-wrap: wrap;
+   flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+.header a, .header span{
+    text-decoration: none;
+    color:lightgray;
+    font-size: 16px;
+
+}
+.logo{
+    display: flex;
+   margin-bottom: 10px;
+   flex-wrap: wrap;
+   flex-direction: row;
+  align-items: stretch;
+  /* width: 100%; */
+
+}
+
+.logos img{
+    width:5rem;
+    height: 1.5rem;
+}
+.logo div{
+    margin-right:20px
+
+}
+.content{
+    margin-top: 55px;
+}
+.content h2{
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+
+.content h1{
+    margin:0;
+    font-size: 3rem;
+}
+
+.content .period{
+   /* width:55% */
+   font-family: 'Railway', sans-serif !important;
+   -webkit-font-smoothing: antialiased;
+   font-size: 1rem;
+   line-height: 22px;
+}
+
+.content p{
+    color:#00AEFF;
+    font-weight: 500;
+}
+
+.footer{
+    margin-top: 8%;
+}
+.footer .mark-sign{
+    width:100px;
+    height: 86px;
+    margin:0;
+}
+
+.name h3{
+    margin: 0;
+}
